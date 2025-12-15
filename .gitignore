@@ -1,0 +1,11 @@
+# Docker Volumes
+logs/
+loki-data/
+grafana-data/
+
+# Binaries
+go-log-local/log-generator
+
+# Environment Variables
+.env
+go-log-local/.env

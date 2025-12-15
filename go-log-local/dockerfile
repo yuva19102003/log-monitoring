@@ -1,0 +1,24 @@
+FROM ubuntu:22.04
+
+# Prevent interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Create log directories
+RUN mkdir -p /var/log/frontend \
+    /var/log/backend \
+    /var/log/database \
+    /var/log/auth \
+    /var/log/system
+
+# Set working directory
+WORKDIR /app
+
+# Copy binary and env
+COPY log-generator /app/log-generator
+COPY .env /app/.env
+
+# Give execute permission
+RUN chmod +x /app/log-generator
+
+# Run the binary
+CMD ["/app/log-generator"]

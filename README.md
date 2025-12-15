@@ -8,6 +8,8 @@ This repository contains a complete log monitoring stack using **Golang**, **Pro
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
+<img src="docs/Screenshot from 2025-12-15 16-11-50.png">
+
 ### Running the Stack
 
 1. **Clone the repository** (if you haven't already):

@@ -6,4 +6,3 @@ root@summonPay2chat-Monitoring:~/log-monitoring#
 
 
 
-curl http://178.128.116.126:3100/ready

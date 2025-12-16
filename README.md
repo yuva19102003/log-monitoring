@@ -36,6 +36,7 @@ This repository contains a complete log monitoring stack using **Golang**, **Pro
 
 - [Architecture Overview](docs/architecture.md): Understand the components and data flow.
 - [Usage Guide](docs/usage.md): Detailed instructions on configuration and querying logs.
+- [End-to-End Tutorial](docs/end-to-end-tutorial.md): Complete guide to Log & Trace monitoring.
 
 ## 🛠️ Components
 
@@ -44,6 +45,7 @@ This repository contains a complete log monitoring stack using **Golang**, **Pro
 | **Go Log Generator** | Simulates application logs (Frontend, Backend, DB, etc.) | N/A |
 | **Promtail** | Ships logs from local files to Loki | N/A |
 | **Loki** | Stores and indexes log streams | `http://localhost:3100` |
+| **Tempo** | Stores distributed traces | `http://localhost:3200` |
 | **Grafana** | Visualizes logs and metrics | `http://localhost:3000` |
 
 ## 🧹 Cleanup

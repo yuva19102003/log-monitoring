@@ -1,0 +1,9 @@
+root@summonPay2chat-Monitoring:~/log-monitoring# sudo chown -R 10001:10001 loki-data
+sudo chmod -R 755 loki-data
+root@summonPay2chat-Monitoring:~/log-monitoring# sudo chown -R 472:472 grafana-data
+sudo chmod -R 755 grafana-data
+root@summonPay2chat-Monitoring:~/log-monitoring# 
+
+
+
+curl http://178.128.116.126:3100/ready
